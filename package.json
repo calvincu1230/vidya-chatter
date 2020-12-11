@@ -1,0 +1,35 @@
+{
+  "name": "vidya-chatter",
+  "version": "1.0.0",
+  "description": "Video Chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvincu1230/vidya-chatter.git"
+  },
+  "author": "calvincu1230",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvincu1230/vidya-chatter/issues"
+  },
+  "homepage": "https://github.com/calvincu1230/vidya-chatter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
